@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Configurator.css";
-import Navbar from "./Navbar";
 
 const Configurator = () => {
   return (

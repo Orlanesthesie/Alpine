@@ -4,10 +4,8 @@ import Navbar from "./Navbar";
 import Carousel from "./Carousel";
 import Galerie from "./Galerie";
 import Conception from "./Conception";
-import Configurator from "./Configurator";
 import Footer from "./Footer";
-
-
+import Creation from "./Creation";
 
 const Home = () => {
   return (
@@ -18,7 +16,7 @@ const Home = () => {
       <Galerie />
       <Conception />
       <section>{/* PETIT TEXTE */}</section>
-      <Configurator />
+      <Creation />
       <Footer />
     </div>
   );

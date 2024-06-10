@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 const Configurator = () => {
   return (
     <div>
-      <Navbar />
       <h1>je suis le configurator</h1>
     </div>
   );

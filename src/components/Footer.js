@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
         <div className="footer_img">
           <img
-            className="footer_img mx-auto"
+            className="footer_img mx-auto "
             src="/images/sources-homepage/logo/logo-white.png"
           />
         </div>

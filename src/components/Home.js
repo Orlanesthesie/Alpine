@@ -14,7 +14,10 @@ const Home = () => {
       <Carousel />
       <section className="made_by_racers">
         <div>
-          <h3 className="text-center pt-5 pb-5">MADE BY RACERS</h3>
+          <h3 className="text-center pt-5 pb-2">MADE BY RACERS</h3>
+          <div className="text-center">
+            <img className="flag pb-2" src="/images/flag.png" />
+          </div>
           <p className="text-center pb-3 p3">
             En 1955, Jean Rédélé, entrepreneur passionné, fonde Alpine sur trois
             piliers : agilité, élégance, esprit de compétition.{" "}

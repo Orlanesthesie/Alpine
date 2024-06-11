@@ -4,7 +4,6 @@
     margin-left: 20px;
 }
 
-
 .navbar-nav .nav-item {
     margin-right: 50px;
 }
@@ -14,7 +13,7 @@
 /*      CAROUSEL        */
 
 .carousel-item {
-    height: 700px;
+    height: 800px;
 }
 
 .w-100 {
@@ -38,6 +37,11 @@
 
 /*      FIN SECTION      */
 
+/*     GALLERIE       */
+.gallery {
+    padding-left: 200px;
+    padding-right: 200px;
+}
 /*      ALPINE IS BACK      */
 
 .alpine {
@@ -106,6 +110,10 @@
 }
 
 /*      FIN CONCEPTION       */
+/*      CREATION         */
+
+
+/*      FIN CONCEPTION */
 /*      FOOTER       */
 
 .footer {

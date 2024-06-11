@@ -2,7 +2,7 @@ import React from "react";
 
 const Galerie = () => {
   return (
-    <div class="row">
+    <div class="row gallery">
       <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
         <img
           src="/images/sources-homepage/galerie/A110_LEGENDE_1.jpg"

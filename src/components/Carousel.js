@@ -47,29 +47,17 @@ const Carousel = () => {
         {/* Single item */}
         <div className="carousel-item">
           <video className="img-fluid w-100" autoPlay loop muted>
-            <source
-              href="https://www.youtube.com/watch?v=9aj4dcySTaA&t=45s"
-              type="video/mp4"
-            />
+            <source src="/video/Alpine1.mp4" type="video/mp4" />
           </video>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+          <div className="carousel-caption d-none d-md-block"></div>
         </div>
 
         {/* Single item */}
         <div className="carousel-item">
-          <img
-            className="w-100"
-            src="/images/sources-homepage/galerie/A110_PURE_6.jpg"
-          />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </div>
+          <video className="img-fluid w-100" autoPlay loop muted>
+            <source src="/video/Alpine2.mp4" type="video/mp4" />
+          </video>
+          <div className="carousel-caption d-none d-md-block"></div>
         </div>
       </div>
       {/* Inner */}

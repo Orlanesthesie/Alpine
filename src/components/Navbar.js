@@ -1,19 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/Home.css";
 
 const Navbar = () => {
   return (
     <div className="text-danger">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <img
           src="/images/LogoA.png"
-          class="navbar-logo ml-auto"
+          className="navbar-logo ml-auto"
           width="40"
           height="auto"
-          alt=""
+          alt="Logo"
         />
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -21,23 +22,23 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div
-          class="collapse navbar-collapse justify-content-center"
+          className="collapse navbar-collapse justify-content-center"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Configurateur
-              </a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/configurator">
+                Configurator
+              </Link>
             </li>
           </ul>
         </div>

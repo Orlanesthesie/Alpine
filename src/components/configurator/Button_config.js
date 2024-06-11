@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 const Button_config = () => {
   const coucou = () => {
-    console.log("ppl");
+    return "coucou";
   };
 
   return (

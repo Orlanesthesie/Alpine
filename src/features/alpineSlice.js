@@ -5,7 +5,7 @@ const initialState = {
     Pure: [
         couleur: [
           noir: [ 
-            standards : [
+            standard : [
               "/images/configurateur/modele/pure/modele_pure-couleur_noire-jante_standard (1).jpg",
               "/images/configurateur/modele/pure/modele_pure-couleur_noire-jante_standard (2).jpg",
               "/images/configurateur/modele/pure/modele_pure-couleur_noire-jante_standard (3).jpg",
@@ -19,13 +19,31 @@ const initialState = {
             ]
           ]
           bleu: [ 
-            jantes: [
-              standards, serac
+            standard : [
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_standard (1).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_standard (2).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_standard (3).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_standard (4).jpg",
+            ],
+            serac : [
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_serac (1).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_serac (2).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_serac (3).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_bleu-jante_serac (4).jpg",
             ]
           ]
           blanc: [ 
-            jantes: [
-              standards, serac
+            standard : [
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_standard (1).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_standard (2).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_standard (3).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_standard (4).jpg",
+            ],
+            serac : [
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_serac (1).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_serac (2).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_serac (3).jpg",
+              "/images/configurateur/modele/pure/modele_pure-couleur_blanche-jante_serac (4).jpg",
             ]
           ]
 
@@ -34,16 +52,23 @@ const initialState = {
     ]
     Legende: [
         couleur: [
-            noir: [ 
-              url,url,url
+            noir: [
+              "/images/configurateur/modele/legende/modele_legende-couleur_noir-jante_legende-1.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_noir-jante_legende-2.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_noir-jante_legende-3.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_noir-jante_legende-4.jpg",
             ]
             bleu: [ 
-              url,url,url
-              
+             "/images/configurateur/modele/legende/modele_legende-couleur_bleu-jante_legende-1.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_bleu-jante_legende-2.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_bleu-jante_legende-3.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_bleu-jante_legende-4.jpg",
             ]
             blanc: [ 
-              url,url,url
-              
+              "/images/configurateur/modele/legende/modele_legende-couleur_blanc-jante_legende-1.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_blanc-jante_legende-2.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_blanc-jante_legende-3.jpg",
+              "/images/configurateur/modele/legende/modele_legende-couleur_blanc-jante_legende-4.jpg",
             ]
 
             ]

@@ -87,7 +87,7 @@ const Conception = () => {
 
       <div className="custom-image-slider" ref={containerRef}>
         <img
-          className="slider-before"
+          className="slider-before "
           src="/images/sources-homepage/conception/alpine-bone.jpg"
           alt="Before"
         />

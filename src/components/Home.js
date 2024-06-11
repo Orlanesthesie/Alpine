@@ -37,6 +37,10 @@ const Home = () => {
         <img className="alpine " src="/images/Alpine_logo_2023.jpg" />
       </section>
       <Conception />
+      <section className="modeles text-center">
+        <h6 className="modeles-titre">MODELES</h6>
+        <h2>LES SENSATIONS DE LA PISTE AU QUOTIDIEN</h2>
+      </section>
       <Creation />
       <Footer />
     </div>

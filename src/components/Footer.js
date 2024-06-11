@@ -7,48 +7,35 @@ const Footer = () => {
         <div className="d-flex align-items-start mb-3">
           <div className="col">
             <h3 className="mb-5 text-center">Autres sites</h3>
-            <ul className="text-center">
-              <li>
-                <a
-                  className="text-white text-center "
-                  href="https://www.alpinecars.com/"
-                >
-                  Alpinecars.com
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white text-center "
-                  href="https://en.media.alpinecars.com"
-                >
-                  Espace Media
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white text-center "
-                  href="https://www.alpineelfcupseries.com/"
-                >
-                  Alpine Elf Cup Series
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white text-center "
-                  href="https://www.alpine-eyewear.com/"
-                >
-                  Alpine Eyewear
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-white text-center "
-                  href="https://boutique.alpinecars.com/"
-                >
-                  Boutique
-                </a>
-              </li>
-            </ul>
+
+            <li className="text-center">
+              <a className="text-white " href="https://www.alpinecars.com/">
+                Alpinecars.com
+              </a>
+            </li>
+            <li className="text-center">
+              <a className="text-white" href="https://en.media.alpinecars.com">
+                Espace Media
+              </a>
+            </li>
+            <li className="text-center">
+              <a
+                className="text-white"
+                href="https://www.alpineelfcupseries.com/"
+              >
+                Alpine Elf Cup Series
+              </a>
+            </li>
+            <li className="text-center">
+              <a className="text-white" href="https://www.alpine-eyewear.com/">
+                Alpine Eyewear
+              </a>
+            </li>
+            <li className="text-center">
+              <a className="text-white" href="https://boutique.alpinecars.com/">
+                Boutique
+              </a>
+            </li>
           </div>
           <div className="col">
             <h3 className="mb-5 text-center">Liens directs</h3>

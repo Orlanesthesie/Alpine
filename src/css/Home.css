@@ -165,7 +165,6 @@
     border-bottom: 12px solid transparent;
     cursor: ew-resize;
     transition: all 0.2s ease-out;
-    /* Add transition property */
 }
 
 .slider-handle::before {

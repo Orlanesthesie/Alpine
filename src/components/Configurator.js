@@ -12,6 +12,7 @@ const Configurator = () => {
       <Navbar />
       <Ariane_config />
       <Carousel_config />
+      <Button_config />
       <Footer />
     </div>
   );

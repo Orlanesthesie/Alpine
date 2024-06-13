@@ -1,6 +1,49 @@
 /*      FIL D'ARIANE         */
 /*      FIN FIL D'ARIANE   */
 
+/*      CAROUSEL    */
+/* src/components/CarouselConfig.css */
+.custom-carousel {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+.custom-carousel-slide {
+    width: 100%;
+    overflow: hidden;
+}
+
+.custom-carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.custom-carousel-button-left {
+    left: 10px;
+}
+
+.custom-carousel-button-right {
+    right: 10px;
+}
+
+.custom-carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*      FIN CAROUSEL     */
 /*      BUTTON_CONFIG       */
 .button_config {
     height: 100px;
